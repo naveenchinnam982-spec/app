@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Agent Workflow Lab</string>
+    <string name="subtitle">Explore AI Agent Workflow</string>
+
+    <!-- Home Dashboard -->
+    <string name="start_agent">Start Agent</string>
+    <string name="learn_ai_agent">Learn AI Agent</string>
+    <string name="workflow_animation">Workflow Animation</string>
+    <string name="example_scenarios">Example Scenarios</string>
+    <string name="about_project">About Project</string>
+    <string name="statistics">Statistics</string>
+
+    <!-- Simulation -->
+    <string name="simulation_title">AI Agent Simulation</string>
+    <string name="input_hint">Type something (e.g., I am hungry)</string>
+    <string name="btn_analyze">Analyze Workflow</string>
+
+    <!-- Workflow Steps -->
+    <string name="perception_title">STEP 1: PERCEPTION</string>
+    <string name="reasoning_title">STEP 2: REASONING</string>
+    <string name="decision_title">STEP 3: DECISION</string>
+    <string name="action_title">STEP 4: ACTION</string>
+
+    <!-- Learn -->
+    <string name="learn_title">Learn AI Concepts</string>
+
+    <!-- Scenarios -->
+    <string name="scenario_title">Example Scenarios</string>
+
+    <!-- Stats -->
+    <string name="stats_title">Agent Analytics</string>
+
+    <!-- About -->
+    <string name="about_title">About the Project</string>
+    <string name="dev_credits">Developed by Senior Android Team</string>
+</resources>

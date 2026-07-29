@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Workflow Architecture"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <TextView
+            android:id="@+id/boxInput"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/card_rounded"
+            android:backgroundTint="@color/primary"
+            android:gravity="center"
+            android:text="INPUT"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float" />
+
+        <TextView
+            android:id="@+id/boxPerception"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/card_rounded"
+            android:backgroundTint="@color/perception"
+            android:gravity="center"
+            android:text="PERCEPTION"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float" />
+
+        <TextView
+            android:id="@+id/boxReasoning"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/card_rounded"
+            android:backgroundTint="@color/reasoning"
+            android:gravity="center"
+            android:text="REASONING"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float" />
+
+        <TextView
+            android:id="@+id/boxDecision"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/card_rounded"
+            android:backgroundTint="@color/decision"
+            android:gravity="center"
+            android:text="DECISION"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/arrow_down_float" />
+
+        <TextView
+            android:id="@+id/boxAction"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:background="@drawable/card_rounded"
+            android:backgroundTint="@color/action"
+            android:gravity="center"
+            android:text="ACTION"
+            android:textColor="@color/on_primary"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnAnimate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Start Animation" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
